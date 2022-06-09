@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Criteria Rating</h1>
+                    <h1 class="m-0">Rating Kriteria</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
 
@@ -35,7 +35,7 @@
                             @endif
 
                             <a href="{{route('criteriaratings.create')}}" class='btn btn-primary'> <span
-                                    class='fa fa-plus'></span> Add Criteria Rating</a>
+                                    class='fa fa-plus'></span> Tambah Rating Kriteria</a>
                             <br>
                             <table id="mytable" class="display nowrap table table-striped table-bordered">
                                 <thead>
@@ -43,7 +43,7 @@
                                         <th>#</th>
                                         <th>Criteria ID</th>
                                         <th>Rating</th>
-                                        <th>Description</th>
+                                        <th>Deskripsi</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>

@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Alternative & Score</h1>
+                    <h1 class="m-0">Alternatif & Skor</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
 
@@ -35,13 +35,13 @@
                             @endif
 
                             <a href="{{route('alternatives.create')}}" class='btn btn-primary'> <span
-                                    class='fa fa-plus'></span> Add Alternative</a>
+                                    class='fa fa-plus'></span> Tambah Alternatif</a>
                             <br>
                             <table id="mytable" class="display nowrap table table-striped table-bordered">
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
+                                        <th>Nama</th>
                                         @foreach ($criteriaweights as $c)
                                         <th>{{$c->name}}</th>
                                         @endforeach

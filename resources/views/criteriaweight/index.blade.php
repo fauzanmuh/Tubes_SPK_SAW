@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Criteria & Weight</h1>
+                    <h1 class="m-0">Kriteria & Bobot</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
 
@@ -35,16 +35,16 @@
                             @endif
 
                             <a href="{{route('criteriaweights.create')}}" class='btn btn-primary'> <span
-                                    class='fa fa-plus'></span> Add Criteria</a>
+                                    class='fa fa-plus'></span> Tambah Criteria</a>
                             <br>
                             <table id="mytable" class="display nowrap table table-striped table-bordered">
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
-                                        <th>Type</th>
-                                        <th>Weight</th>
-                                        <th>Description</th>
+                                        <th>Nama</th>
+                                        <th>Atribut</th>
+                                        <th>Bobot</th>
+                                        <th>Deskripsi</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>

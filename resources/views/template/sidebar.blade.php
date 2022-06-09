@@ -14,7 +14,7 @@
           <img src="{{asset('assets/img/amongus.webp')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Admin</a>
+          <a href="#" class="d-block">Sekretaris</a>
         </div>
       </div>
 
@@ -35,7 +35,7 @@
             <a href="{{url('criteriaweights')}}" class="nav-link">
               <i class="nav-icon fas fa-cube"></i>
               <p>
-                Criteria & Weight
+                Kriteria & Bobot
               </p>
             </a>
           </li>
@@ -43,7 +43,7 @@
           <a href="{{url('criteriaratings')}}" class="nav-link">
               <i class="nav-icon fas fa-cubes"></i>
               <p>
-                Criteria Rating
+                Rating Kriteria
               </p>
             </a>
           </li>
@@ -51,7 +51,7 @@
           <a href="{{url('alternatives')}}" class="nav-link">
               <i class="nav-icon fas fa-database"></i>
               <p>
-                Alternative & Score
+                Alternatif & Skor
               </p>
             </a>
           </li>
@@ -60,7 +60,7 @@
           <a href="{{url('decision')}}" class="nav-link">
                 <i class="nav-icon fas fa-table"></i>
               <p>
-                Decision Matrix
+                Matriks Keputusan
             </p>
             </a>
           </li>
@@ -68,7 +68,7 @@
           <a href="{{url('normalization')}}" class="nav-link">
               <i class="nav-icon far fa-chart-bar"></i>
               <p>
-                Normalization
+                Normalisasi
               </p>
             </a>
           </li>
